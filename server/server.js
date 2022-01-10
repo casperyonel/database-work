@@ -4,6 +4,7 @@ const app = express()
 const cors = require('cors')
 const {SERVER_PORT} = process.env
 // const {seed, getCountries, getCities, createCity, deleteCity} = require('./controller.js')
+// npm i sequelize??
 
 app.use(express.json())
 app.use(cors())
